@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body{
+  background-image: url(wallpaper.jpg);
+  background-size: cover;
+}
+.biodata{
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+}
+.icon{
+  margin: 0;
+  font-size: 50px;
+}
+.ig{
+  color: black;
+  transition: 0.5s;
+  padding: 15px;
+}
+.yt{
+  color: rgb(0, 0, 0);
+  transition: 0.5s;
+  padding: 15px;
+}
+.fb{
+  color: #111111e7;
+  transition: 0.5s;
+  padding: 15px;
+  margin-top: 10px;
+}
+header{
+  background-color: rgb(255, 193, 143);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.kanan{
+  margin-right: 40px;
+  
+}
+.tanpadekorasi{
+  text-decoration: none;
+  padding: 15px;
+  background-color: rgb(250, 230, 200);
+  border-radius: 25px;
+  color: black;
+}
+.ig:hover{
+  color: rgb(195, 0, 255);
+  transform: scale(1.15);
+}
+.yt:hover{
+  color: rgb(255, 0, 0);
+  transform: scale(1.15);
+}
+.fb:hover{
+  color: rgb(0, 38, 255);
+  transform: scale(1.15);
+}
+.tanpadekorasi:hover{
+  opacity: 0.5;
+}
+.kotak{
+  display: flex;
+  background-color: rgb(255, 193, 143);
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 70px;
+  padding: 50px;
+  border-radius: 30px;
+}
+.beunget{
+  width: 400px;
+  height: 350px;
+  transition: 0.5s;
+}
+.beunget:hover{
+  transform: scale(1.05);
+}
+.text{
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: 30px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Architects Daughter', cursive;
+}
+.hardolin{
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+}
+.hardolin:hover{
+  opacity: 0.5;
+}
+.ht{
+  color: red;
+  text-decoration: none;
+}
+.ht:hover{
+  opacity: 0.5;
+}
+.cs{
+  color: rgb(25, 25, 255);
+  text-decoration: none;
+}
+.cs:hover{
+  opacity: 0.5;
+}
+.bdg{
+  color: rgb(25, 25, 255) ;
+  text-decoration: none;
+}
+.bdg:hover{
+  opacity: 0.5;
+}
+.logokontak{
+  font-size: 80px;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+.email{
+  font-size: 70px;
+  margin-top: 80px;
+  margin-left: 30px;
+}
+.kotak2{
+  display: flex;
+  background-color: rgb(255, 193, 143);
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 70px;
+  padding: 50px;
+  border-radius: 30px;
+}
+.text3{
+  font-size: 33px;
+  margin-top: 26px;
+  margin-left: 30px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Architects Daughter', cursive;
+}
+.wa:hover{
+  color: rgb(27, 230, 27);
+  transform: scale(1.15);
+}
+.wa{
+  transition: 0.5s;
+}
+.imel{
+  transition: 0.5s;
+}
+.imel:hover{
+  color: rgb(56, 125, 255);
+  transform: scale(1.15);
+}
